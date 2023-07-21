@@ -10,6 +10,7 @@ function App() {
       <div className="App">
         <h2>{tags.toString()}</h2>
         <TagInput tags={tags} onChange={setTags} />
+        <br />
         <button
           onClick={() => {
             setTags(["1", "2", "3"]);

@@ -9,6 +9,7 @@
 }
 
 .input {
+  color: black;
   background-color: transparent;
   outline: 0;
   padding-left: 2px;
@@ -19,4 +20,25 @@
   margin-left: 0.2rem;
   flex: 1;
   font-size: 20px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  color: black;
+  margin-right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #e4e4e4;
+}
+
+.delete {
+  color: black;
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  padding: 0;
+  background-color: #d3d3d3;
+  border: 1px solid black;
+  font-size: 0.5rem;
 }
